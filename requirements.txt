@@ -1,0 +1,10 @@
+gymnasium
+numpy
+torch
+matplotlib
+seaborn
+pandas
+imageio
+pygame
+# Overcooked-AI (Install via git recommended)
+git+https://github.com/HumanCompatibleAI/overcooked_ai.git
