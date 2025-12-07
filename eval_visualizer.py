@@ -71,7 +71,7 @@ def generate_gifs():
             inputs = torch.cat([obs_tensor, last_action_onehot, agent_ids], dim=1)
             
             q_vals, hidden_state = agent(inputs, hidden_state)
-            actions = q_vals.argmax(dim=2).detach().numpy() # [N] (Greedy)
+            actions = q_vals.argmax(dim=1).detach().numpy() # [N] (Greedy)
             
             # 환경 업데이트
             act_list = [a for a in actions]

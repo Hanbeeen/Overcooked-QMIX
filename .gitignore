@@ -15,12 +15,6 @@ env/
 .idea/
 .DS_Store
 
-# Training Results & Models (Large files)
-results/
-*.pt
-*.pth
-*.ckpt
-
 # Logs
 *.log
 *.csv
@@ -29,7 +23,3 @@ results/
 tmp/
 .gemini/
 .agent/
-
-# Artifacts
-*.png
-*.gif
