@@ -7,4 +7,4 @@ pandas
 imageio
 pygame
 # Overcooked-AI (Install via git recommended)
-git+https://github.com/HumanCompatibleAI/overcooked_ai.git
+# git+https://github.com/HumanCompatibleAI/overcooked_ai.git
